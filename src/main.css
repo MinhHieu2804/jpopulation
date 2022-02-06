@@ -1,0 +1,43 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.selections ul,li {
+    list-style: none;
+}
+
+.selections ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.selections ul li {
+    background-color: #a4e7fd;
+    margin-bottom: 10px;
+    padding: 10px 0px;
+    text-align: center;
+    width: 150px;
+}
+
+.title{
+    text-align: center;
+    padding: 10px;
+    font-size: large;
+}
+
+
+@media only screen and (max-width:320px) {
+    .selections ul{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
